@@ -15,16 +15,16 @@ export class HeroesComponent implements OnInit {
     this.selectedHero = hero;
   }
 
-  private _hero: Hero = {
-    id: 1,
-    name: 'windstorm'
-  };
-  public get hero(): Hero {
-    return this._hero;
-  }
-  public set hero(value: Hero) {
-    this._hero = value;
-  }
+  // private _hero: Hero = {
+  //   id: 1,
+  //   name: 'windstorm'
+  // };
+  // public get hero(): Hero {
+  //   return this._hero;
+  // }
+  // public set hero(value: Hero) {
+  //   this._hero = value;
+  // }
 
   heroes = HEROES;
 
